@@ -13,5 +13,4 @@ export class UserEventSubscriber {
     public onUserCreate(user: User): void {
         log.info('User ' + user.toString() + ' created!');
     }
-
 }

@@ -10,4 +10,7 @@ export const events = {
     pet: {
         created: 'onPetCreate',
     },
+    lock: {
+        created: 'onLockCreate',
+    },
 };

@@ -16,6 +16,7 @@ export class UserController {
 
     @Get()
     public find(): Promise<User[]> {
+        console.log('a');
         return this.userService.find();
     }
 
